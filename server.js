@@ -5,8 +5,8 @@ const app = express();
 const port = 3000;
 
 const pool = new Pool({
-  user: 'your_username',
-  password: 'your_password',
+  user: 'user1',
+  password: 'password',
   host: 'database',
   port: 5432,
   database: 'log_db',
