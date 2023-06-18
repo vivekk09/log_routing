@@ -1,0 +1,7 @@
+FROM curlimages/curl:7.78.0
+
+WORKDIR /app
+
+COPY test_script.sh .
+
+CMD [ "sh", "./test_script.sh" ]
