@@ -5,8 +5,8 @@ services:
     image: postgres
     restart: always
     environment:
-      POSTGRES_USER: your_username
-      POSTGRES_PASSWORD: your_password
+      POSTGRES_USER: user1
+      POSTGRES_PASSWORD: password
       POSTGRES_DB: log_db
     volumes:
       - ./init-scripts:/docker-entrypoint-initdb.d
